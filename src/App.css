@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  background: #264053;
+  color: #888;
+  font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.search {
+
+  display: flex;
+  align-items: center;
+  /*position: absolute;*/
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  top: 1rem;
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+ /* 
+  z-index: 10;*/
+}
+
+.search input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.link {
+  color: #648880;
+  text-decoration: none;
+}
+.link:hover {
+  color: #a9b2b9;
+}
+
+.markers {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
