@@ -23,7 +23,7 @@ const Map = (places) => {
     /*Carga el mapa desde React
     --------------------------------------------------------------------
     const { isLoaded, loadError } = useLoadScript({
-        googleMapsApiKey: 'AIzaSyBrSfk-SOGesdx_D7enDrg_YZ0YsCkaTOQ',
+        googleMapsApiKey: REACT_APP_GOOGLE_MAPS_API_KEY,
         libraries,
     });
 
